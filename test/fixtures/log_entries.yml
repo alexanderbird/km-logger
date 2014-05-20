@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  for: MyString
+  kms: 1
+
+two:
+  for: MyString
+  kms: 1

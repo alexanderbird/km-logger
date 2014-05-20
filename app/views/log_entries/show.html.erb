@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>For:</strong>
+  <%= @log_entry.for %>
+</p>
+
+<p>
+  <strong>Kms:</strong>
+  <%= @log_entry.kms %>
+</p>
+
+<%= link_to 'Edit', edit_log_entry_path(@log_entry) %> |
+<%= link_to 'Back', log_entries_path %>

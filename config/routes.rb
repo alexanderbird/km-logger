@@ -1,4 +1,6 @@
 KmLogger::Application.routes.draw do
+  resources :log_entries, path: "6d31797c563610eb4703dc1338ffef2c"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
